@@ -2,7 +2,7 @@
 export default function MenuCard() {
    return (
       // className="fixed flex flex-col right-4 top-4 bottom-4 bg-white w-80 rounded-2xl shadow-lg overflow-hidden"
-      <div className="sticky flex flex-col top-4 bg-white w-130 rounded-2xl shadow-lg overflow-hidden"  style={{height: 'calc(100vh - 2rem)'}}>
+      <div className="sticky right-0 flex flex-col top-4 bg-white w-sm rounded-2xl shadow-lg overflow-hidden"  style={{height: 'calc(100vh - 2rem)'}}>
          <h2 className="text-xl font-semibold mb-4 p-2">Table $</h2>
          <div className="bg-cyan-100 w-full p-2 flex-1 overflow-y-auto">
             <ul>
